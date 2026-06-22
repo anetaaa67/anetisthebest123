@@ -27,11 +27,18 @@
           <span class="poop">💩</span>
           <span class="poop">💩</span>
         </div>
-        <div class="koala-face" aria-hidden="true">🐨</div>
+        <div class="koala-wrap">
+          <div class="koala-face" aria-hidden="true">🐨</div>
+        </div>
         <p id="futureText">Tady se objeví budoucnost člověka.</p>
       </section>
 
       <section class="result-card tarot-card" id="tarotCard" aria-live="polite">
+        <div class="poop-cluster" aria-hidden="true">
+          <span class="poop">💩</span>
+          <span class="poop">💩</span>
+          <span class="poop">💩</span>
+        </div>
         <div class="tarot-image-wrap">
           <div id="tarotEmoji" class="tarot-emoji" aria-hidden="true">🔮</div>
         </div>
@@ -41,6 +48,14 @@
 
     <div class="question-input-wrap">
       <input type="text" id="questionInput" class="question-input" placeholder="Ptej se na svou budoucnost..." />
+      <button id="generateAnswerButton" class="generate-answer-button">Generovat odpověď</button>
+      <p id="answerText" class="answer-text"></p>
+
+      <div class="zodiac-wrap">
+        <input type="text" id="zodiacInput" class="zodiac-input" placeholder="Napiš své znamení..." />
+        <button id="showZodiacButton" class="show-zodiac-button">Zobraz popis znamení</button>
+        <p id="zodiacDescription" class="zodiac-description"></p>
+      </div>
     </div>
   </main>
 
