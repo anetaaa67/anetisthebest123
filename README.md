@@ -1,15 +1,15 @@
-# Koali Veštírna
+# Panda Červená Veštírna
 
-Barevná webová aplikace, která věští budoucnost člověka a zobrazuje reálné obrázky spolu s animací bobku.
+Barevná webová aplikace, která věští budoucnost člověka inspirovaná pandy.
 
 ## Jak aplikaci spustit
 
 1. Otevřete `index.html` ve webovém prohlížeči.
-2. Klikněte na tlačítko `Vyvěštění`.
+2. Klikněte na tlačítko `Vyvěštění` nebo `Tarot dne`.
 3. Zobrazí se náhodná věštba o budoucnosti člověka a bobek vzlétne.
 
 ## Součásti projektu
 
-- `index.html` – stránka s reálnými obrázky a rozhraním
-- `styles.css` – růžové a barevné styly, animace a rozvržení
-- `script.js` – logika tlačítka a generování lidských věštb
+- `index.html` – stránka s pandím heroem a rozhraním
+- `styles.css` – tmavě červené a barevné styly, animace
+- `script.js` – logika tlačíteč a generování věštb

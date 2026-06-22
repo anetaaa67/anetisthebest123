@@ -3,17 +3,17 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Koali Veštírna</title>
+  <title>Panda Červená Veštírna</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <main class="container">
     <div class="hero-image">
-      <img src="https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80" alt="Roztomilá koala sedící na stromě" />
+      <img src="Copilot_20260622_112742.png" alt="Hero" class="hero-emoji" id="heroEmoji" />
     </div>
 
-    <h1>Koali Veštírna</h1>
-    <p class="description">Stiskni tlačítko a zjisti, co čeká člověka v budoucnosti — koali inspirovaná věštba s cool atmosférou.</p>
+    <h1>Panda Červená Veštírna</h1>
+    <p class="description">Stiskni tlačítko a zjisti, co čeká člověka v budoucnosti — panda inspirovaná věštba s cool atmosférou.</p>
 
     <div class="button-row">
       <button id="revealButton">Vyvěštění</button>
@@ -33,10 +33,14 @@
 
       <section class="result-card tarot-card" id="tarotCard" aria-live="polite">
         <div class="tarot-image-wrap">
-          <img id="tarotImage" src="https://images.unsplash.com/photo-1515847049296-a281d6401047?auto=format&fit=crop&w=500&q=80" alt="Tarot karta s koalou" />
+          <div id="tarotEmoji" class="tarot-emoji" aria-hidden="true">🔮</div>
         </div>
         <p class="tarot-label" id="tarotText">Tarot karta dne se zobrazí po kliknutí.</p>
       </section>
+    </div>
+
+    <div class="question-input-wrap">
+      <input type="text" id="questionInput" class="question-input" placeholder="Ptej se na svou budoucnost..." />
     </div>
   </main>
 
